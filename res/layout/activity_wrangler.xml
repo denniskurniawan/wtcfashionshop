@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dennis.wtcfashionshop.WranglerActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WRANGLER"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/wrangler" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrangler Jeans pertama kali dibuat oleh Blue Bell, yang mengakuisisi merek ketika mereka mengambil alih Casey Jones di pertengahan 1940-an. Blue Bell bekerja Bernard Lichtenstein ('Rodeo Ben'), seorang penjahit Polandia dari Łódź yang bekerja sama dengan koboi, untuk membantu jins desain cocok untuk digunakan rodeo. Ini adalah asal-usul dari Wrangler Jeans. Gaya 13MWZ, diperkenalkan pada tahun 1947 sebagai nomor lot 11MWZ, masih tersedia di seluruh dunia. Selain ini, Wrangler sejak diperkenalkan pada beberapa jalur lain, yang lebih ditujukan terhadap kelompok tertentu. Beberapa contoh dari hal ini adalah 20X, Riggs, dan Aura. Wrangler juga memiliki garis aksesoris musik ditargetkan untuk para penggemar musik country." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
